@@ -447,6 +447,14 @@ _Related_
 
 -   <https://github.com/WordPress/gutenberg/blob/master/packages/block-editor/src/components/plain-text/README.md>
 
+<a name="PluginPreview" href="#PluginPreview">#</a> **PluginPreview**
+
+Undocumented declaration.
+
+<a name="PluginPreviewMoreMenuItem" href="#PluginPreviewMoreMenuItem">#</a> **PluginPreviewMoreMenuItem**
+
+Undocumented declaration.
+
 <a name="PreserveScrollInReorder" href="#PreserveScrollInReorder">#</a> **PreserveScrollInReorder**
 
 Undocumented declaration.

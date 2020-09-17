@@ -246,7 +246,11 @@ function Layout() {
 								<TextEditor />
 							) }
 							{ isRichEditingEnabled && mode === 'visual' && (
-								<VisualEditor />
+								<div>
+									<div>Hello4 :)</div>
+									<ComplementaryArea.Slot scope="core/block-editor" />
+									<VisualEditor />
+								</div>
 							) }
 							<div className="edit-post-layout__metaboxes">
 								<MetaBoxes location="normal" />

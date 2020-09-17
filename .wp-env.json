@@ -1,6 +1,9 @@
 {
 	"core": "WordPress/WordPress",
-	"plugins": [ "." ],
+	"plugins": [
+		".",
+		"/home/matta8c/h20/misc/plugin-3"
+	],
 	"env": {
 		"tests": {
 			"mappings": {

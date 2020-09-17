@@ -8,6 +8,7 @@ import classnames from 'classnames';
  */
 import { useViewportMatch } from '@wordpress/compose';
 import { DropdownMenu, MenuGroup, MenuItem } from '@wordpress/components';
+import { ActionItem } from '@wordpress/interface';
 import { __ } from '@wordpress/i18n';
 import { check } from '@wordpress/icons';
 
@@ -67,6 +68,12 @@ export default function PreviewOptions( {
 							{ __( 'Mobile' ) }
 						</MenuItem>
 					</MenuGroup>
+					<ActionItem.Slot
+						name="core/block-editor/plugin-more-menu"
+						label={ __( 'Plugins' ) }
+						as={ [ MenuGroup, MenuItem ] }
+					/>
+					{ /* fillProps={ { onClick: onClose } } */ }
 					{ children }
 				</>
 			) }
