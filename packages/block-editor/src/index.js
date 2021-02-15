@@ -16,3 +16,5 @@ export * from './components';
 export * from './utils';
 export { storeConfig } from './store';
 export { SETTINGS_DEFAULTS } from './store/defaults';
+export { default as PluginPreviewMoreMenuItem } from './components/preview-options/plugin-preview-more-menu-item';
+export { default as PluginPreview } from './components/preview-options/plugin-preview';
