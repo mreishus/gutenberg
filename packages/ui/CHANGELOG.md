@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### New Features
+
+-   Add `Card` and `CollapsibleCard` primitives ([#76252](https://github.com/WordPress/gutenberg/pull/76252)).
+
 ## 0.8.0 (2026-03-04)
 
 ### Breaking Changes
