@@ -1053,13 +1053,13 @@ Display the tab buttons for a tabbed interface. ([Source](https://github.com/Wor
 
 ## Tab Menu Item
 
-A single tab button in the tabs menu. Used as a template for styling all tab buttons. ([Source](https://github.com/WordPress/gutenberg/tree/trunk/packages/block-library/src/tabs-menu-item))
+A single tab button in the tabs menu. ([Source](https://github.com/WordPress/gutenberg/tree/trunk/packages/block-library/src/tabs-menu-item))
 
 -	**Name:** core/tabs-menu-item
 -	**Experimental:** true
 -	**Category:** design
 -	**Parent:** core/tabs-menu
--	**Supports:** color (background, text), layout (~~allowEditing~~), shadow, spacing (padding), typography (fontSize, textAlign), ~~html~~, ~~lock~~, ~~reusable~~
+-	**Supports:** anchor, color (background, text), layout (~~allowEditing~~), spacing (padding), typography (fontSize, textAlign), ~~html~~, ~~lock~~, ~~reusable~~
 
 ## Tag Cloud
 
