@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Internal
+
+-   `Tabs`: Add development-mode validation for Tab/Panel count matching ([#75170](https://github.com/WordPress/gutenberg/pull/75170)).
+
 ## 0.9.0 (2026-03-18)
 
 ### New Features
